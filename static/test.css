@@ -1,0 +1,124 @@
+body{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.django-team{
+    display: flex!important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 1.6em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    height: fit-content;
+    min-width: 70%!important;
+}
+
+.django-team__list{
+    list-style: none;
+    padding: 0!important;
+}
+
+.django-team__item{
+    color: black;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.django-main{
+    display: flex!important;
+    height: 80vh!important;
+    width: 100%;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.left-section, .right-section{
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right-section{
+    background-image: url("https://www.datashapa.com/wp-content/uploads/Datashapa-Blog-Imagery-Intelligent-Solutions-13.jpg");
+    background-size: cover;
+}
+
+.django-brand{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.django-logo{
+    width: 50%;
+    height: fit-content;
+}
+
+.django-header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.django-header a{
+    color: black;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    transition: 0.2s;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.django-header a:hover{
+    background-color: orange;
+    color: white;
+}
+
+.django-form{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: white;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+
+    padding: 3em;
+}
+
+.form-django-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 100vw;
+}

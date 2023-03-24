@@ -1,0 +1,95 @@
+li label{
+    display: none;
+}
+
+li {
+    list-style: none;
+    padding: 0!important;
+}
+
+.custom-iframe{
+    display: flex;
+
+    border: none!important;
+}
+
+.django-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: white;
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+
+    padding: 0!important;
+
+    min-width: 50%;
+    width: 850px;
+
+    position: relative;
+}
+
+.form-django-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.django-form__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    padding: 0.3em;
+}
+
+.django-form__brand{
+    padding: 2.6em;
+}
+
+.django-form__use{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.6em;
+    text-align: center;
+}
+
+.display-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-validate{
+    background-color: skyblue;
+    border-radius: 6px;
+    border: 1px transparent solid;
+    color: white;
+    transition: 0.2s;
+    padding: 0.6em 1.2em;
+}
+
+.btn-validate:hover{
+    background-color: white;
+    border-radius: 6px;
+    border: 1px skyblue solid;
+    color: black;
+}
+
+.form-item{
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}

@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <base href='/'>
+
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+    <script src="{% static 'js/snow.js' %}"></script>
+    <title>{% block title %}Django project{% endblock %}</title>
+
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+</head>
+<body>
+    {% include "partials/header.html" %}
+    <div class="container django-main form-django-container">
+        {% block content %}
+        {% endblock %}
+        <div id="full-content" class="animation-css"></div>
+    </div>
+    {% include "partials/footer.html" %}
+</body>

@@ -1,0 +1,16 @@
+/* Définir le style de l'élément de flocon de neige */
+.flake {
+    position: fixed;
+    top: -10px;
+    z-index: 9999;
+}
+
+/* Animer le mouvement des flocons de neige */
+@keyframes snowflakes-fall {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}

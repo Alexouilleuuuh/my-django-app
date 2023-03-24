@@ -1,0 +1,33 @@
+.django-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 4em 12em 0em 12em;
+
+    position: relative;
+
+    background-color: whitesmoke;
+    border-top: 1px gray solid;
+}
+
+.django-footer__col{
+    padding: 1.2em 0.8em;
+    width: 33%;
+}
+
+.django-footer__section{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.django-footer__copyright{
+    width: 100%;
+}
+
+.django-footer__infos{
+    padding-bottom: 3em;
+}

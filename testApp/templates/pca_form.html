@@ -1,0 +1,29 @@
+{% extends "layouts/form_base.html" %}
+{% load static %}
+
+{% block title %}PCA{% endblock %}
+
+{% block content %}
+    <div class="django-form">
+        <div class="django-form__section">
+            <div class="django-form__brand">
+                <h1><strong class="blue-title">Réduction</strong> et <strong class="blue-title">clustering</strong> de CSV en ligne</h1>
+                <p>Exploitez vos CSV en ligne à l'aide des méthodes PCA et LDA</p>
+            </div>
+            <div class="django-form__use">
+                <h2>Commencez dès maintenant</h2>
+                <select class="form-item" onchange="if(this.value!=''){ document.location.href=this.value }">
+                    <option value="/pca_cluster/" {% if request.path == '/pca_cluster/' %}selected{% endif %}>Clustering avec K-means</option>
+                    <option value="/sklearn_pca/" {% if request.path == '/sklearn_pca/' %}selected{% endif %}>Réduction avec PCA</option>
+                    <option value="/sklearn_lda/" {% if request.path == '/sklearn_lda/' %}selected{% endif %}> Réduction avec LDA</option>
+                </select>
+                <form class="display-form" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-item">{{ form.as_ul }}</div>
+
+                    <input class="btn-validate form-item" type="submit" value="Traitement">
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "layouts/form_base.html" %}
+
+{% block title %}PCA{% endblock %}
+
+{% block content %}
+    <h1>PCA Results</h1>
+    <div>
+        {{ div1|safe }}
+    </div>
+    <div>
+        {{ div2|safe }}
+    </div>
+    {{ bokeh_js }}
+    {{ script1|safe }}
+    {{ script2|safe }}
+{% endblock %}
