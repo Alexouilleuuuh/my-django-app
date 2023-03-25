@@ -11,5 +11,7 @@ pip install mysqlclient
 
 pip install bokeh
 
+pip install scikit-learn
+
 pip uninstall markupsafe
 pip install markupsafe
