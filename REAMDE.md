@@ -31,9 +31,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#equipe-projet">Equipe projet</a></li>
-    <li><a href="#Cadre">Cadre</a></li>
+    <li><a href="#cadre">Cadre</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
