@@ -132,6 +132,7 @@ Vous pouvez maintenant tester le bon fonctionnement de l'application à l'adress
 ## Equipe projet
 
 Les membres de l'équipe projet :
+<br/>
 <strong>Interface Django</strong>
 * EMERY Alexandre
 
