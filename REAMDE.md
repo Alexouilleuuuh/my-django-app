@@ -99,7 +99,7 @@ Lancer le projet pour la premiere fois, voici les quelques règles à respecter 
 2. Cloner le repo GitHub
    ```sh
    sudo git init
-   sudo git clone [https://github.com/your_username_/Project-Name.git](https://github.com/Alexouilleuuuh/my-django-app.git)
+   sudo git clone https://github.com/Alexouilleuuuh/my-django-app.git
    ```
 3. Placer vous dans le dossier my-django-app
 4. Installer les packages necessaires
