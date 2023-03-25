@@ -50,7 +50,7 @@ désiré. Les méthodes de la librairie Scikit-learn seront appliquées aux donn
 seront affichés sous le format adéquat en utilisant la librairie Bokeh sur le site. D’autres
 fonctionnalités peuvent être ajoutées selon les besoins. 
 
-Site démonstration : <a href="www.alexandre-emery.fr">Lien</a>
+Site démonstration : <a href="http://www.alexandre-emery.fr/">Lien</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
