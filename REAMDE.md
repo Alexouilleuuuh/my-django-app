@@ -1,48 +1,160 @@
-Django projet Python avancée
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a>
+    <img src="https://forgemia.inra.fr/uploads/-/system/project/avatar/4253/kisspng-django-web-development-web-framework-python-softwa-django-5b45d914274e46.055745571531304212161.png" alt="Logo" width="80" height="80">
+  </a>
 
-Une petite description du projet
+  <h3 align="center">Application Django - projet python avancée</h3>
 
-Pour commencer
-Entrez ici les instructions pour bien débuter avec votre projet...
+  <p align="center">
+    (URCA - Université de Reims Champagne Ardennes)
+  </p>
+</div>
 
-Pré-requis
-Ce qu'il est requis pour commencer avec votre projet...
+<!-- Table des matières -->
+<details>
+  <summary>Table des matières</summary>
+  <ol>
+    <li>
+      <a href="#a-savoir">A savoir</a>
+      <ul>
+        <li><a href="#dependance">Dépendances</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#premier-demarrage">Premier démarrage</a>
+      <ul>
+        <li><a href="#prerequis">Prerequis</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#equipe-projet">Equipe projet</a></li>
+    <li><a href="#Cadre">Cadre</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Programme 1
-Programme 2
-etc...
-Installation
-Les étapes pour installer votre programme....
 
-Dites ce qu'il faut faire...
 
-exemple : Exécutez la commande telnet mapscii.mepour commencer ensuite [...]
+<!-- ABOUT THE PROJECT -->
+## A savoir
 
-Ensuite, vous pouvez montrer ce que vous obtenez au final...
+Il s'agit ici d'un projet de python avancée correspondant à la description suivante :
 
-Démarrage
-Dites comment faire pour lancer votre projet
+<strong>Projet 8 : Création d’un site web de traitement de données ( Django + Scikitlearn + Bokeh) - 3 étudiants</strong>
+Le but de ce projet est de créer un site web avec la librairie Django. Des méthodes de réduction
+de dimensions et des méthodes de clustering seront implémentées avec la librairie Scikitlearn. L’utilisateur pourra charger le ou les fichiers de données, sélectionner le traitement
+désiré. Les méthodes de la librairie Scikit-learn seront appliquées aux données. Les résultats
+seront affichés sous le format adéquat en utilisant la librairie Bokeh sur le site. D’autres
+fonctionnalités peuvent être ajoutées selon les besoins. 
 
-Fabriqué avec
-Entrez les programmes/logiciels/ressources que vous avez utilisés pour développer votre projet
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-exemples :
 
-Materialise.css - Framework CSS (front-end)
-Atom - Editeur de textes
-Contribuant
-Si vous pouvez contribuer, lisez le fichier CONTRIBUTING.md pour savoir comment le faire.
 
-Versions
-Listez les versions ici exemple : Dernière version stable : 5.0 Dernière version : 5.1 Liste des versions : Cliquer pour afficher (pour le lien mettez simplement l'URL de vos projets suivi de /tags)
+### Dependance
+Dans cette section, voici les dépendances utilisés par l'outil, à noter que certaines dépendances pourront être installées directement après le clonage à l'aide d'un fichier de dépendances qui vous est fournis.
 
-Auteurs
-Listez le(s) auteur(s) du projet ici !
+Necessaire avant installation
+* Python3
+* Pip
 
-Jhon doe alias @outout14
-Lisez la liste des contributeurs pour voir qui à aidé au projet !
+Présent dans le fichier de configuration requirement.sh
+* Django
+* Libmysqlclient-dev
+* Mysqlclient
+* Bokeh
+* Scikit-learn
 
-(pour le lien mettez simplement l'URL de votre projet suivi de /contirubors)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Licence
-Ce projet est sous licence exemple: WTFTPL- voir le fichier LICENSE.md pour plus d'informations
+
+
+<!-- GETTING STARTED -->
+## Premier Demarrage
+
+Lancer le projet pour la premiere fois, voici les quelques règles à respecter pour que l'installation se passe bien.
+
+### Prerequis
+
+* python3 et pip
+  ```sh
+  sudo apt install python3 python3-pip
+  ```
+  
+* Vérifier l'installation
+  ```sh
+  sudo python3 --version
+  ```
+
+### Installation
+
+<strong>Comment installer l'application</strong>
+
+1. Créer le dossier dans lequel vous voulez placer l'application
+2. Cloner le repo GitHub
+   ```sh
+   sudo git init
+   sudo git clone [https://github.com/your_username_/Project-Name.git](https://github.com/Alexouilleuuuh/my-django-app.git)
+   ```
+3. Placer vous dans le dossier my-django-app
+4. Installer les packages necessaires
+   ```sh
+   sudo sh requirements.sh
+   ```
+5. Lancer l'application en localhost
+   ```sh
+   sudo sh run.sh
+   ```
+    ou
+   ```sh
+   sudo python3 manage.py runserver
+   ```
+   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Vous pouvez maintenant tester le bon fonctionnement de l'application à l'adresse <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- Equipe -->
+## Equipe projet
+
+Les membres de l'équipe projet :
+<strong>Interface Django</strong>
+* EMERY Alexandre
+
+<strong>Version 1 - application</strong>
+* COTTIGNY Thomas (Scikit-learn)
+* CAILLAUX Antoine (Bokeh)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CADRE -->
+## Cadre
+
+(URCA) Université de Reims Champagne Ardennes
+Module python avancée - année 2022/2023
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Mail : alexandre.emery@etudiant.univ-reims.fr
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
