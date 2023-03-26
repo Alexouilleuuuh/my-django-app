@@ -138,7 +138,7 @@ Les membres de l'équipe projet :
 
 <strong>Version 1 - application</strong>
 * COTTIGNY Thomas (Scikit-learn)
-* CAILLAUX Antoine (Bokeh)
+* CAILLAUD Antoine (Bokeh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
